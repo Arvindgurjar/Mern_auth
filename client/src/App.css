@@ -1,0 +1,33 @@
+.maincol{
+  background-color: white;
+  box-shadow: 2px 2px 50px lightslategray;
+  border-radius: 2%;
+}
+ form input{
+  outline: none;
+  border: none;
+  font-size: small;
+  padding-right:40%;
+}
+.inputfield{
+  margin-top:20px;
+  border-bottom: 2px solid black;
+}
+.home{
+  height:84vh;
+  width:100vw;
+  line-height:3000%;
+background: rgb(173,216,230);
+background: linear-gradient(90deg, rgba(173,216,230,1) 0%, rgba(173,216,230,1) 49%, rgba(240,255,240,1) 50%);
+}
+textarea{
+  padding: 0 40%;
+}
+@media  ( max-width:480px) {
+  input{
+    padding-right: 30%;
+  }
+  textarea{
+    padding:0 20%;
+  }
+}
